@@ -1,4 +1,5 @@
 # MaterialWorld
+See https://github.com/jelbourn/material2-app for an AoT implementation. I copied a lot of the core app instead of forking and ripping out.
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.17.
 

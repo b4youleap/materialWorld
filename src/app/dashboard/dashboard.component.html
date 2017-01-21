@@ -1,7 +1,10 @@
-<md-sidenav-layout [class.m2app-dark]="isDarkTheme">
-
+<md-sidenav-container [class.m2app-dark]="isDarkTheme">
+<!-- md-sidenav-layout has been deprecated - use md-sidenav-container instead. -->
   <md-sidenav #sidenav mode="side" class="app-sidenav">
-    Sidenav
+    SideNav
+    <!-- <div class="nav-wrapper"> -->
+      <!-- <a href="#" class="brand-logo"><img src="../assets/img/logo.png"></a> -->
+    <!-- </div> -->
   </md-sidenav>
 
   <md-toolbar color="primary">
@@ -134,7 +137,7 @@
 
   </div>
 
-</md-sidenav-layout>
+</md-sidenav-container>
 
 <span class="app-action" [class.m2app-dark]="isDarkTheme">
   <button md-fab><md-icon>check circle</md-icon></button>

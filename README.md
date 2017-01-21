@@ -1,8 +1,7 @@
 # MaterialWorld
-See https://github.com/jelbourn/material2-app for an AoT implementation. I copied a lot of the core app instead of forking and ripping out.
+See https://github.com/jelbourn/material2-app for an AoT implementation. I built this from the ground-up copying a lot of the core app instead of forking and refactoring.
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.17.
-*UPDATE 01/02/2017* Updated to use angular-cli version 1.0.0-beta.26 and material 2.0.0-beta.1
+This project was originally generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.17.
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -31,3 +30,8 @@ Run `ng github-pages:deploy` to deploy to Github Pages.
 ## Further help
 
 To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## UPDATES
+
+- *01/21/2017* Modified to follow Angular guide for modularity and routing - similar to the final heroes app but using a dashboard instead of contacts.
+- *01/02/2017* Updated to use angular-cli version 1.0.0-beta.26 and material 2.0.0-beta.1

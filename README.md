@@ -2,6 +2,7 @@
 See https://github.com/jelbourn/material2-app for an AoT implementation. I copied a lot of the core app instead of forking and ripping out.
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.17.
+*UPDATE 01/02/2017* Updated to use angular-cli version 1.0.0-beta.26 and material 2.0.0-beta.1
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
